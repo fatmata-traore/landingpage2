@@ -124,10 +124,9 @@ h4 {
   left: 2rem;
 }
 .circle-image img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
   left: 2rem;
+  top: 2rem;
 }
 .nav2 {
   background: rgb(234, 234, 234);
