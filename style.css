@@ -95,9 +95,11 @@ h4 {
 /* -------------------------------container-circle1-------------------------- */
 .container-circle1 {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 60px;
   margin: 80px;
+  justify-content: center;
+  gap: 25px;
 }
 .circle-image {
   /* margin-bottom: 70px; */
@@ -107,18 +109,23 @@ h4 {
   border-radius: 100px;
   top: 10px;
 }
+@media (max-width: 771px) {
+  .circle-image img {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .circle1-img {
-  /* display: flex;
   justify-content: center;
-  align-items: center; */
-  /* position: relative;
-  left: 2rem; */
+  align-items: center;
 }
 .circle-image img {
   position: relative;
   left: 3rem;
   top: 3rem;
 }
+
 .nav2 {
   background: rgb(234, 234, 234);
   justify-content: center;
@@ -157,6 +164,15 @@ h5 {
   /* gap: 20%; */
   margin: 20px;
   padding: 20px;
+  margin-left: -10px;
+  text-align: center;
+  align-items: center;
+}
+@media (max-width: 517px) {
+  .details {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
 /* -------------------Les Applications------------------------------------ */
 .card1 {
@@ -347,9 +363,15 @@ h2 {
   }
 }
 @media (max-width: 768px) {
-  .card1 img {
+  .card1 {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  .container-img img {
+    width: 20%;
   }
 }
