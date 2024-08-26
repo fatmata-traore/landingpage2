@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+  /* flex-wrap: wrap; */
+  list-style: none;
+}
+@media (min-width: 830px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 845px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-img {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 859px) {
+  .container-circle1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 806px) {
+  .nav2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 675px) {
+  .progress-bar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 524px) {
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 512px) {
+  .card-global {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 136px) {
+  .dernier-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+body {
+  max-width: 1500px;
+}
+
+/* ----------------------------------navbar-------------------------------------------------------- */
+.navbar {
+  /* width: 100%; */
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px;
+  background-color: white;
+  font-size: 25px;
+}
+/* ------------container-img--------------------- */
+.container-img {
+  width: 100%;
+  height: 90vh;
+  background: url(img/background.png) no-repeat;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+h3 {
+  color: #fff;
+  background: #555;
+  padding: 5px;
+  width: 230px;
+}
+h4 {
+  color: #fff;
+  width: 270px;
+  padding: 5px;
+}
+.img {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+/* -------------------------------container-circle1-------------------------- */
+.container-circle1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  margin: 80px;
+}
+.circle-image {
+  /* margin-bottom: 70px; */
+  width: 140px;
+  height: 140px;
+  border: 2px solid rgb(144, 185, 144);
+  border-radius: 100px;
+  top: 10px;
+}
+.circle1-img {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  left: 2rem;
+}
+.circle-image img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 2rem;
+}
+.nav2 {
+  background: rgb(234, 234, 234);
+  justify-content: center;
+  padding: 30px 0px;
+  font-size: 20px;
+  margin-top: -40px;
+}
+@media (max-width: 518px) {
+  .nav2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav2 ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.nav2 ul {
+  display: flex;
+  /* gap: 50px; */
+  /* justify-content: center; */
+  /* margin-top: 30px; */
+  padding: 25px;
+  justify-content: space-around;
+}
+h5 {
+  font-size: 25px;
+  gap: 10px;
+  /* display: flex; */
+}
+.details {
+  /* gap: 20%; */
+  margin: 20px;
+  padding: 20px;
+}
+/* -------------------Les Applications------------------------------------ */
+.card1 {
+  /* width: 2px; */
+  display: flex;
+  /* gap: 2px; */
+}
+/* ---------------------las applications-------------------------- */
+/* -----------------------------part6-------------------------------- */
+h2 {
+  text-align: center;
+  padding: 30px;
+}
+.P1 {
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.P0 {
+  /* margin-left: -30px; */
+  justify-content: space-between;
+  width: 90%;
+}
+.P2 {
+  margin-right: -5px;
+}
+
+.infos {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.infos2 {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+span {
+  margin-bottom: -20px;
+}
+.info-center {
+  display: flex;
+  gap: 68%;
+}
+.progress-bar-path {
+  background: gray;
+  width: 300px;
+  border-radius: 10px;
+  justify-content: center;
+  cursor: pointer;
+  /* padding: 30px; */
+  border-radius: 10px;
+  height: 10px;
+}
+.progress {
+  justify-content: space-between;
+  background: rgb(22, 187, 187);
+  width: 100px;
+  height: 10px;
+  /* padding: 30px; */
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  display: flex;
+  padding: 40px;
+  gap: 20%;
+  justify-content: center;
+}
+@media screen and(max-width:1499px) {
+  .part6 {
+    width: 90%;
+  }
+  .progress-bar {
+    width: 90%;
+  }
+  .progress-bar-path {
+    width: 150%;
+  }
+}
+
+/* ---------------------------------------nav-img-------------------- */
+.nav-img {
+  background: rgb(165, 192, 173);
+}
+
+.grid-img {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.grid-img1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+.nav1 {
+  text-align: center;
+  color: #fff;
+  margin: 20px;
+  padding: 20px;
+}
+/* ----------------------dernier parti-------------------------------- */
+.last-part {
+  background: #fff;
+  /* justify-content: center; */
+  text-align: center;
+  margin-top: 70px;
+}
+.first-part {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 80px;
+  font-size: 18px;
+  /* width: 60%; */
+  justify-content: space-between;
+}
+.last-part3 {
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 30px;
+  font-weight: bold;
+  padding: 30px;
+  @media screen and(max-width:342px) {
+    width: 90%;
+  }
+}
+/* ----------------------------------------------footer parti----- */
+h2 {
+  /* margin-top: 5%; */
+  text-align: center;
+  margin-left: 30px;
+}
+.card-global {
+  display: flex;
+  justify-content: center;
+}
+.card-footer {
+  background: rgb(234, 234, 234);
+  padding: 30px;
+}
+
+.card2 {
+  text-align: center;
+  /* margin-top: 30px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 2px;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.dernier-card {
+  margin-top: 10%;
+  text-align: center;
+}
