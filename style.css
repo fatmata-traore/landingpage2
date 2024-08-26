@@ -5,17 +5,8 @@
   /* flex-wrap: wrap; */
   list-style: none;
 }
-@media (min-width: 830px) {
-  body {
-    flex-direction: column;
-  }
-}
 
 @media (max-width: 845px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-  }
   .container-img {
     display: flex;
     flex-direction: column;
@@ -27,12 +18,7 @@
     flex-direction: column;
   }
 }
-@media (max-width: 768px) {
-  .nav2 {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 @media (max-width: 768px) {
   .progress-bar {
     display: flex;
@@ -68,7 +54,7 @@ body {
 }
 
 /* ----------------------------------navbar-------------------------------------------------------- */
-.navbar {
+.navbar ul {
   /* width: 100%; */
   list-style: none;
   display: flex;
@@ -177,12 +163,7 @@ h5 {
   /* width: 2px; */
   display: flex;
   /* gap: 2px; */
-}
-@media (max-width: 768px) {
-  .card1 {
-    display: flex;
-    flex-direction: column;
-  }
+  object-fit: cover;
 }
 /* ---------------------las applications-------------------------- */
 /* -----------------------------part6-------------------------------- */
@@ -221,7 +202,7 @@ span {
 }
 .info-center {
   display: flex;
-  gap: 8px;
+  gap: 120px;
 }
 .progress-bar-path {
   background: gray;
@@ -345,4 +326,30 @@ h2 {
 .dernier-card {
   margin-top: 10%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    border: 2px solid red;
+  }
+  .nav2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar ul {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    border: 1px solid red;
+  }
+  .container-img {
+    width: 98%;
+  }
+}
+@media (max-width: 768px) {
+  .card1 img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
